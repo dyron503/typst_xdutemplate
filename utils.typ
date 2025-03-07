@@ -1,11 +1,5 @@
 #import "config.typ": *
 
-#let fake-par = context {
-  let b = par[#box()]
-  let t = measure(b + b);
-  b
-  v(-t.height)
-}
 
 #let hei(body)  = text(font: "SimHei", body)
 #let kai(body)  = text(font: "KaiTi", body)

@@ -9,11 +9,15 @@
 	heading(level: 1, outlined: false)[摘要]
 	ch-abstract
 
+	parbreak()
+
 	h(-2em) 
 	text(font: ("Times New Roman","SimHei"))[关键词：#ch-keywords ]
 
 	heading(level: 1, outlined: false)[Abstract]
 	en-abstract
+	parbreak()
+
 	strong[Keywords: #en-keywords]
 }
 

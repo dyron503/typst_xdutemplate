@@ -6,10 +6,8 @@
 #import "aftermatter.typ": *
 #import "config.typ": *
 
+
 #let xdudoc(
-	fonts: (:),
-	fontsize : 12pt,
-	factor: 1.5,
 	config: config-dict,
 	doc
 ) = {
@@ -21,28 +19,24 @@
 	// let (title-font,main-font) = get-fonts(fonts)
 	set text(
 		font: (config.en-main-font,config.ch-main-font), 
-		size: fontsize,
+		size: config.main-fontsize,
 		lang: "zh",
 	) 
 	set par(
 		leading: 15pt, // 行间距
 		spacing: 15pt, // 段落间距
-		first-line-indent: 2em, 
+		first-line-indent: (amount: 2em, all: true), 
 		justify: true,
 	)
 	set page(
-		margin: (top:3cm, bottom: 2cm, inside: 3cm, outside: 2cm),
-		header-ascent: 1cm-config.header-fontsize, //页眉和正文之间的间距
+		margin: (top:3cm, bottom: 2cm, inside: 4cm, outside: 2cm),
+		header-ascent: 30%, //页眉和正文之间的间距
 	)
 
-	// set block(above:  15.6pt * factor - 0.7em, below: 15.6pt * factor - 0.7em)
+
 
 	//章节标题设置
-	
-
-	// show heading: set text(font: (config.ch-heading-font,config))
 	show heading: set block(above:24pt,below: 20pt) //标题上下间距
-	show heading: it =>{it + fake-par}
 	show heading.where(level:1) : it => {
 		pagebreak() 
 		set text(
@@ -67,13 +61,15 @@
 		counter(figure.where(kind: image)).update(0)
 		counter(math.equation).update(0)
 	}
+	
 	show heading.where(level: 2) : it => {
 		set text(
 			size: config.heading-fontsize.at(1),
 			font: (config.en-heading-font.at(1),config.ch-heading-font.at(1))
 		)		
-		align(center)[#it]	
+		align(center,strong(it))
 	}
+	show heading.where(level: 3): it => strong(it)
 
 	set math.equation(supplement: none)
 	
