@@ -1,11 +1,11 @@
 
 #import "@preview/cuti:0.2.1": show-cn-fakebold
-#import "utils.typ": *
-#import "frontmatter.typ": *
-#import "mainbody.typ": *
-#import "aftermatter.typ": *
+#import "template/utils.typ": *
+#import "template/frontmatter.typ": *
+#import "template/mainbody.typ": *
+#import "template/aftermatter.typ": *
 #import "config.typ": *
-
+#import  "template/cover.typ":cover
 
 #let xdudoc(
 	config: config-dict,
@@ -76,6 +76,7 @@
 	show figure.where(kind: table): set figure.caption(position: top)
 	show figure.caption : set text(size: config.caption-fontsize)
 
+	cover(config)
 	doc
 	pagebreak()
 }

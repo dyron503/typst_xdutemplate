@@ -1,5 +1,13 @@
 #let config-dict = (
-  title: "西电本科论文模板",
+  title: ("基于SIP多媒体系统的数据会议","研究与实现"),
+  class-number: [2101011],
+  student-number:[2101010025],
+  student-name: [张~~三],
+  school-name: [通信工程学院],
+  major-name: [通信工程],
+  teacher-name: [李~~四],
+  "teacherInXDU-name":[（如无院内导师，则无需写此条）],
+
 	ch-heading-font: ("SimHei","SimSun","SimSun"),
 	en-heading-font: ("Times New Roman","Times New Roman","Times New Roman"),
   heading-fontsize: (16pt,14pt,12pt),

@@ -3,7 +3,7 @@
 📖 基于Typst的XIDIAN本科毕设论文模板 | 简洁高效·符合学校规范
 
 
-本模板基于typst0.13,遵循《西安电子科技大学本科毕业设计撰写规范》要求，设计了一个轻量化的模板，由于论文封面不经常变动，且生成效果难以完全符合要求，因此本项目只提供摘要之后部分的内容模板。建议定稿之后，生成pdf再进行合并。
+本模板基于typst0.13,遵循《西安电子科技大学本科毕业设计撰写规范》要求，设计了一个轻量化的模板，由于论文封面不经常变动，且生成效果难以完全符合要求，因此本项目提供了封面和摘要之后部分的内容模板。
 
 ## 使用方法：
 
@@ -18,7 +18,15 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
 ### 在config.typ中配置和填写信息
 ```typ
 #let config-dict = (
-  title: "西电本科论文模板",
+  title: ("基于SIP多媒体系统的数据会议","研究与实现"),
+  class-number: [2101011],
+  student-number:[2101010025],
+  student-name: [张~~三],
+  school-name: [通信工程学院],
+  major-name: [通信工程],
+  teacher-name: [李~~四],
+  "teacherInXDU-name":[（如无院内导师，则无需写此条）],
+
 	ch-heading-font: ("SimHei","SimSun","SimSun"),
 	en-heading-font: ("Times New Roman","Times New Roman","Times New Roman"),
   heading-fontsize: (16pt,14pt,12pt),
@@ -98,12 +106,7 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
   = 致谢
   谢谢大家
   #appendix[
-
-
-    = ddd
-
-
-
+    = 这是附录A
     #figure(
       rect(width: 5cm, height: 5cm),
       caption: [测试],
@@ -112,10 +115,13 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
       f + g
     $<eqq>
     可以看到，附录的表和@eqq 的编号都没有问题。
-
   ]
-
-
 ]
 
 ```
+
+
+## Changelog
+2025.3.9： 添加了封面，整理了项目的结构
+
+2025.3.7： 为typst0.13 进行了模板修改

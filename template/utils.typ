@@ -1,4 +1,4 @@
-#import "config.typ": *
+#import "../config.typ": *
 
 
 #let hei(body)  = text(font: "SimHei", body)
@@ -35,7 +35,7 @@
 	let headercontext = {
 		context {
 			h(1fr)
-			[#getheadertext(here(),config.title)]
+			[#getheadertext(here(),config-dict.title.at(0)+config.title.at(1))]
 			h(1fr)
 		}
 	}  

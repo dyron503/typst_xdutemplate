@@ -63,12 +63,7 @@
   = 致谢
   谢谢大家
   #appendix[
-
-
-    = ddd
-
-
-
+    = 这是附录A
     #figure(
       rect(width: 5cm, height: 5cm),
       caption: [测试],
@@ -79,6 +74,4 @@
     可以看到，附录的表和@eqq 的编号都没有问题。
 
   ]
-
-
 ]
