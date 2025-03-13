@@ -124,7 +124,7 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
 
 ## Changelog
 
-2025.3.13: 添加了四级标题，修改了列表的缩进和有序列表默认格式，增加了引用样式
+2025.3.13: 添加了四级标题，修改了列表的缩进和有序列表默认格式，增加了引用样式. 将template.typ移动到template文件夹中，修改模板时仅需要替换template文件夹
 
 2025.3.9： 添加了封面，整理了项目的结构
 

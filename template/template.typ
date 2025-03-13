@@ -1,11 +1,11 @@
 
 #import "@preview/cuti:0.2.1": show-cn-fakebold
-#import "template/utils.typ": *
-#import "template/frontmatter.typ": *
-#import "template/mainbody.typ": *
-#import "template/aftermatter.typ": *
-#import "config.typ": *
-#import  "template/cover.typ":cover
+#import "./utils.typ": *
+#import "./frontmatter.typ": *
+#import "./mainbody.typ": *
+#import "./aftermatter.typ": *
+#import "../config.typ": *
+#import  "./cover.typ":cover
 
 #let xdudoc(
 	config: config-dict,

@@ -1,4 +1,4 @@
-#import "template.typ": *
+#import "template/template.typ": *
 
 #show: xdudoc.with()
 
