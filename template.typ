@@ -76,6 +76,9 @@
 	show figure.where(kind: table): set figure.caption(position: top)
 	show figure.caption : set text(size: config.caption-fontsize)
 
+	set list(indent: 2em)
+	set enum(indent: 2em, numbering: "1)")
+
 	cover(config)
 	doc
 	pagebreak()

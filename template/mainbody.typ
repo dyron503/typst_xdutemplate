@@ -30,9 +30,6 @@
 		context str(counter(heading).get().first()) + "." + str(it)
 	})
 
-	set list(indent: 2em)
-	set enum(indent: 2em)
-
 	counter(page).update(1)
 	doc
 	pagebreak()
