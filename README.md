@@ -2,7 +2,6 @@
 
 📖 基于Typst的XIDIAN本科毕设论文模板 | 简洁高效·符合学校规范
 
-
 本模板基于typst0.13,遵循《西安电子科技大学本科毕业设计撰写规范》要求，设计了一个轻量化的模板，由于论文封面不经常变动，且生成效果难以完全符合要求，因此本项目提供了封面和摘要之后部分的内容模板。
 
 ## 使用方法：
@@ -11,11 +10,13 @@
 
 1. 在vscode插件市场中安装tinymist插件
 2. 克隆本项目
+
 ```bash
 git clone git@github.com:juruoHBr/typst_xdutemplate.git
 ```
 
 ### 在config.typ中配置和填写信息
+
 ```typ
 #let config-dict = (
   title: ("基于SIP多媒体系统的数据会议","研究与实现"),
@@ -40,6 +41,7 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
 ```
 
 ### 在main.typ中填写内容
+
 ```typ
 #import "template.typ": *
 
@@ -120,8 +122,10 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
 
 ```
 
-
 ## Changelog
+
+2025.3.13: 添加了四级标题，修改了列表的缩进，增加了引用样式
+
 2025.3.9： 添加了封面，整理了项目的结构
 
 2025.3.7： 为typst0.13 进行了模板修改
