@@ -33,20 +33,33 @@
 
   @cc 是一个公式。
 
-  这里有个图和一个表
+  这里还有一个公式，并且该公式后一段不缩进。
+  $
+    g=2
+  $
+  #h(-2em)段后内容。
+
+  这里有个图和一个表，并且放置在原处
 
   #figure(
     rect(width: 5cm, height: 5cm),
     caption: [ddd],
+    placement: none
   )
 
   #figure(
     table([1], [2]),
     caption: [dd],
+    placement: none
   )<dd>
 
-  @dd 是一个很好的表
-
+  @dd 是一个不浮动的表
+  #figure(
+    rect(width: 5cm, height: 5cm),
+    caption: [ddd],
+  )<abc>
+  
+  @abc 是一个浮动的图
 
   ==== 这是四级标题
 

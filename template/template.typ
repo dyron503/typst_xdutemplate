@@ -78,6 +78,7 @@
 
 	set list(indent: 2em)
 	set enum(indent: 2em, numbering: "1)")
+	set figure(placement: config.float-figure)
 
 	cover(config)
 	doc

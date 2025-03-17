@@ -2,7 +2,7 @@
 
 📖 基于Typst的XIDIAN本科毕设论文模板 | 简洁高效·符合学校规范
 
-本模板基于typst0.13,遵循《西安电子科技大学本科毕业设计撰写规范》要求，设计了一个轻量化的模板。包括论文封面和摘要后的所有内容。 其余部分建议在学校给的word基础上填写后合并pdf。
+本模板基于typst0.13,遵循《西安电子科技大学本科毕业设计撰写规范》要求，设计了一个轻量化的模板。包括论文封面和摘要后的所有内容。 封面部分不同学院可能略有不同，建议在学校给的word基础上填写后合并pdf。
 
 ## 使用方法：
 
@@ -43,7 +43,7 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
 ### 在main.typ中填写内容
 
 ```typ
-#import "template.typ": *
+#import "template/template.typ": *
 
 #show: xdudoc.with()
 
@@ -78,20 +78,41 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
 
   @cc 是一个公式。
 
-  这里有个图和一个表
+  这里还有一个公式，并且该公式后一段不缩进。
+  $
+    g=2
+  $
+  #h(-2em)段后内容。
+
+  这里有个图和一个表，并且放置在原处
 
   #figure(
     rect(width: 5cm, height: 5cm),
     caption: [ddd],
+    placement: none
   )
 
   #figure(
     table([1], [2]),
     caption: [dd],
+    placement: none
   )<dd>
 
   @dd 是一个很好的表
+  #figure(
+    rect(width: 5cm, height: 5cm),
+    caption: [ddd],
+  )<abc>
+  
+  @abc 是一个浮动的图
 
+  ==== 这是四级标题
+
+  - 列表第一点
+  - 列表第二点
+
+  + 有序列表1
+  + 有序列表2
 
   这里有两个引用文献：
 
@@ -103,7 +124,7 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
 
 // 这里是参考文献，致谢和附录
 #after-matter[
-  #bibliography("ref.bib")
+  #bibliography("ref.bib",style: "gb-7714-2015-numeric")
 
   = 致谢
   谢谢大家
@@ -117,6 +138,7 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
       f + g
     $<eqq>
     可以看到，附录的表和@eqq 的编号都没有问题。
+
   ]
 ]
 
@@ -124,7 +146,7 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
 
 ## Changelog
 
-2025.3.17: 将四级标题从目录里移除
+2025.3.17: 将四级标题从目录里移除，将图片设置为默认浮动（可在config.typ 里更改）
 
 2025.3.13: 添加了四级标题，修改了列表的缩进和有序列表默认格式，增加了引用样式. 将template.typ移动到template文件夹中，修改模板时仅需要替换template文件夹
 

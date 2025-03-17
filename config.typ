@@ -16,5 +16,6 @@
   main-fontsize: 12pt,
   caption-fontsize: 10.5pt,
   header-fontsize: 10.5pt,
-  pagenum-fontsize: 9pt
+  pagenum-fontsize: 9pt,
+  float-figure: auto // 图片是否浮动，如果是auto，则自动浮动，如果是none，图片在原位置
 )
