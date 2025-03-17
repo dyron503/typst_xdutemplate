@@ -23,7 +23,7 @@
 
 
 #let thesis-contents() ={
-	outline(indent: auto)
+	outline(indent: auto, depth: 3)
 }
 
 #let front-matter(doc) = {
