@@ -146,6 +146,8 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
 
 ## Changelog
 
+2025.3.18：更新封面参数
+
 2025.3.17: 将四级标题从目录里移除，将图片设置为默认浮动（可在config.typ 里更改）
 
 2025.3.13: 添加了四级标题，修改了列表的缩进和有序列表默认格式，增加了引用样式. 将template.typ移动到template文件夹中，修改模板时仅需要替换template文件夹
@@ -153,6 +155,10 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
 2025.3.9： 添加了封面，整理了项目的结构
 
 2025.3.7： 为typst0.13 进行了模板修改
+
+## 如何更新模板
+
+仅需将仓库中template最新文件夹替换本地的template文件夹即可
 
 ## 常见问题
 

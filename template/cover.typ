@@ -1,7 +1,7 @@
 #let sp = h(1fr)
 
 #let cover(config) = {
-  set page(margin:(x: 3.4cm, top:2.9cm,bottom: 1cm) )
+  set page(margin:(x: 3.45cm, top:2.7cm,bottom: 1cm) )
   {
     set align(right)
     set text(size: 12pt)
@@ -18,22 +18,22 @@
       )
     )
   }
-  v(.5cm)
+  v(.8cm)
   set align(center)
-  image("name.jpg",width: 50%)
+  pad(image("name.jpg",width: 55% ),left: 0.2cm)
   v(.8cm)
   text(font: "SimHei",size: 42pt,tracking: 6pt)[本科毕业设计论文]
-  v(1.4cm)
-  image("logo.png")
+  v(1.3cm)
+  pad(image("logo.png"),left: 1cm)
   v(0cm)
   {
-    set text(font: "SimSun",size: 16pt)
-    show grid.cell.where(x: 0): it => strong(it)
-    let title-fromat = it=>text(font:("Times New Roman","SimHei"),(it))
+    set text(font: "SimSun",size: 15pt)
+    show grid.cell.where(x: 0): it => strong(text(it))
+    let title-fromat = it=>text(font:("Times New Roman","SimHei"),size: 16pt,(it))
     grid(
-      columns: (6em,17em),
+      columns: (6em,14.8em),
       align: (bottom,bottom),
-      rows: 2.9em,
+      rows: 3.1em,
       column-gutter: 1em,
       inset: (bottom: 1.5pt),
       stroke: (x,y) => (bottom: if x==1 {0.5pt}),
