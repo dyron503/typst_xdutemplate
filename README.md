@@ -146,6 +146,8 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
 
 ## Changelog
 
+2025.4.9： 删除了英文Keywords前面的缩进
+
 2025.3.18：更新封面参数
 
 2025.3.17: 将四级标题从目录里移除，将图片设置为默认浮动（可在config.typ 里更改）
