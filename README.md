@@ -8,7 +8,7 @@
 
 ### 安装Typst
 
-1. 在vscode插件市场中安装tinymist插件
+1. 在vscode插件市场中安装tinymist插件，版本要求为0.13.*
 2. 克隆本项目
 
 ```bash
