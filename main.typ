@@ -79,7 +79,7 @@
 
 // 这里是参考文献，致谢和附录
 #after-matter[
-  #bibliography("ref.bib",style: "gb-7714-2015-numeric")
+  #bib("ref.bib")
 
   = 致谢
   谢谢大家

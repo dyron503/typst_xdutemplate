@@ -28,3 +28,8 @@
 
 	doc
 }
+
+#let bib(path) ={
+	set text(size: 10.5pt)
+	bibliography("../" + path, style: "gb-7714-2015-numeric")
+}
