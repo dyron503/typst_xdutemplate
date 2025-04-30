@@ -46,7 +46,7 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
 
 ## Changelog
 
-2025.4.30： 更改了参考文献的字体大小和引用使用方式， 根据格式检测系统更改frontmatter的标题，目前已经能通过格式检测
+2025.4.30： 更改了参考文献的字体大小和引用使用方式， 根据格式检测系统更改frontmatter的标题，修复了英文keywords只能检测到一个的问题， 目前已经能通过格式检测
 
 2025.4.9： 删除了英文Keywords前面的缩进
 
@@ -71,6 +71,6 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
 
 ## 已知问题
 
-1. 英文Keywords在格式检测系统中只能检测到一个关键词
+暂无
 
-如有解决办法，欢迎联系QQ：1751651073
+如有问题，欢迎联系QQ：1751651073
