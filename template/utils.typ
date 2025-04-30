@@ -8,8 +8,11 @@
 
 
 // 获取header的文本 type:string
-#let getheadertext(loc,title) = {
+#let getheadertext(loc,title, thiscontent:none) = {
 	if( calc.even(loc.page()) ){
+		if( thiscontent != none ){
+			return thiscontent
+		}
 		return title
 	}
 
@@ -31,11 +34,11 @@
 
 
 // 排版header
-#let header-fun(numberformat: "1",cnt: counter(page),config: config-dict) = {
+#let header-fun(numberformat: "1",cnt: counter(page),config: config-dict, thiscontent: none) = {
 	let headercontext = {
 		context {
 			h(1fr)
-			[#getheadertext(here(),config-dict.title.at(0)+config.title.at(1))]
+			getheadertext(here(),config-dict.title.at(0)+config.title.at(1),thiscontent: thiscontent)
 			h(1fr)
 		}
 	}  

@@ -46,7 +46,7 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
 
 ## Changelog
 
-2025.4.30： 更改了参考文献的字体大小和引用使用方式
+2025.4.30： 更改了参考文献的字体大小和引用使用方式， 根据格式检测系统更改frontmatter的标题，目前已经能通过格式检测
 
 2025.4.9： 删除了英文Keywords前面的缩进
 
@@ -68,3 +68,9 @@ git clone git@github.com:juruoHBr/typst_xdutemplate.git
 
 1. 常见问题，这里包含有一些常用的实现方法，例如三线表，子图等[常见问题 | Typst 中文社区导航](https://typst-doc-cn.github.io/guide/FAQ.html)
 2. 参考文献中，doi和url尽量同时出现或者同时不出现，否则格式检测会报错
+
+## 已知问题
+
+1. 英文Keywords在格式检测系统中只能检测到一个关键词
+
+如有解决办法，欢迎联系QQ：1751651073
