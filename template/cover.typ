@@ -43,7 +43,6 @@
       [专 #sp 业],config.major-name,
       [学 #sp 生 #sp 姓 #sp 名],config.student-name,
       [导 #sp 师 #sp 姓 #sp 名],config.teacher-name,
-      [院内导师姓名], config.teacherInXDU-name
 
     )
   }

@@ -1,11 +1,11 @@
 #let config-dict = (
-  title: ("基于SIP多媒体系统的数据会议","研究与实现"),
-  class-number: [2101011],
-  student-number:[2101010025],
-  student-name: [张~~三],
-  school-name: [通信工程学院],
-  major-name: [通信工程],
-  teacher-name: [李~~四],
+  title: ("基于虚幻引擎的跨平台游戏","开发技术研究"),
+  class-number: [2103053],
+  student-number:[21009200502],
+  student-name: [马鋆宇],
+  school-name: [计算机科学与技术学院],
+  major-name: [软件工程],
+  teacher-name: [高~~悦],
   "teacherInXDU-name":[（如无院内导师，则无需写此条）],
 
 	ch-heading-font: ("SimHei","SimSun","SimSun"),
