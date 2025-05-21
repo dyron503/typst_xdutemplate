@@ -1,0 +1,70 @@
+2025-05-21 20:57:31,311 - LatencyAnalysis - INFO - === Script execution started ===
+2025-05-21 20:57:31,311 - LatencyAnalysis - INFO - Controller data file: c:\Users\dyrn5\OneDrive\桌面\毕业设计\typist\typst_xdutemplate\Data\ControllerInput.csv
+2025-05-21 20:57:31,311 - LatencyAnalysis - INFO - Starting to process file: c:\Users\dyrn5\OneDrive\桌面\毕业设计\typist\typst_xdutemplate\Data\ControllerInput.csv
+2025-05-21 20:57:31,312 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,1.617,0.022,1.595
+2025-05-21 20:57:31,313 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,1.277,0.019,1.259
+2025-05-21 20:57:31,313 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,3.153,0.02,3.133
+2025-05-21 20:57:31,314 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.483,0.018,0.465
+2025-05-21 20:57:31,314 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.395,0.018,0.377
+2025-05-21 20:57:31,314 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.54,0.02,0.52
+2025-05-21 20:57:31,314 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.416,0.02,0.396
+2025-05-21 20:57:31,314 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.962,0.024,0.938
+2025-05-21 20:57:31,314 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.896,0.019,0.877
+2025-05-21 20:57:31,315 - LatencyAnalysis - INFO - Finished processing file: c:\Users\dyrn5\OneDrive\桌面\毕业设计\typist\typst_xdutemplate\Data\ControllerInput.csv. Total lines: 509, Parsed lines: 500, Valid intervals found: 500
+2025-05-21 20:57:31,315 - LatencyAnalysis - INFO - Calculating statistics for 'Controller Input Overall' with 500 data points.
+2025-05-21 20:57:31,315 - LatencyAnalysis - INFO - Statistics for 'Controller Input Overall': Count=500, Mean=20.21, Median=20.00, CV=11.75%
+2025-05-21 20:57:31,315 - LatencyAnalysis - INFO - Printing overall statistics for Controller Input
+2025-05-21 20:57:31,316 - LatencyAnalysis - INFO - Overall stats for Controller Input: {'count': 500, 'mean': np.float64(20.21), 'median': np.float64(20.0), 'std_dev': np.float64(2.375268405885954), 'min': np.float64(17.0), 'max': np.float64(37.0), 'q1': np.float64(19.0), 'q3': np.float64(21.0), 'cv': np.float64(11.752936199336734)}
+2025-05-21 20:57:31,317 - LatencyAnalysis - INFO - Printing per-action statistics for Controller Input
+2025-05-21 20:57:31,317 - LatencyAnalysis - INFO - Calculating statistics for 'Controller Input - Action: Move' with 500 data points.
+2025-05-21 20:57:31,317 - LatencyAnalysis - INFO - Statistics for 'Controller Input - Action: Move': Count=500, Mean=20.21, Median=20.00, CV=11.75%
+2025-05-21 20:57:31,317 - LatencyAnalysis - INFO - Stats for Controller Input - Action: Move: {'count': 500, 'mean': np.float64(20.21), 'median': np.float64(20.0), 'std_dev': np.float64(2.375268405885954), 'min': np.float64(17.0), 'max': np.float64(37.0), 'q1': np.float64(19.0), 'q3': np.float64(21.0), 'cv': np.float64(11.752936199336734)}
+2025-05-21 20:57:31,318 - LatencyAnalysis - INFO - Finished printing statistics for Controller Input
+2025-05-21 20:57:31,318 - LatencyAnalysis - INFO - Keyboard data file: c:\Users\dyrn5\OneDrive\桌面\毕业设计\typist\typst_xdutemplate\Data\KeyboardInput.csv
+2025-05-21 20:57:31,319 - LatencyAnalysis - INFO - Starting to process file: c:\Users\dyrn5\OneDrive\桌面\毕业设计\typist\typst_xdutemplate\Data\KeyboardInput.csv
+2025-05-21 20:57:31,319 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.087,0.022,0.064
+2025-05-21 20:57:31,319 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.631,0.023,0.609
+2025-05-21 20:57:31,320 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,1.746,0.021,1.725
+2025-05-21 20:57:31,320 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,2.361,0.022,2.339
+2025-05-21 20:57:31,320 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,2.182,0.022,2.16
+2025-05-21 20:57:31,321 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,2.004,0.022,1.982
+2025-05-21 20:57:31,321 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,1.806,0.026,1.78
+2025-05-21 20:57:31,321 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,1.5,0.022,1.478
+2025-05-21 20:57:31,322 - LatencyAnalysis - INFO - Skipping line due to invalid timestamps (CurrEnd_TS <= PrevEnd_TS): LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,1.826,0.02,1.805
+2025-05-21 20:57:31,322 - LatencyAnalysis - INFO - Finished processing file: c:\Users\dyrn5\OneDrive\桌面\毕业设计\typist\typst_xdutemplate\Data\KeyboardInput.csv. Total lines: 662, Parsed lines: 653, Valid intervals found: 653
+2025-05-21 20:57:31,322 - LatencyAnalysis - INFO - Calculating statistics for 'Keyboard Input Overall' with 653 data points.
+2025-05-21 20:57:31,323 - LatencyAnalysis - INFO - Statistics for 'Keyboard Input Overall': Count=653, Mean=24.19, Median=24.00, CV=11.99%
+2025-05-21 20:57:31,323 - LatencyAnalysis - INFO - Printing overall statistics for Keyboard Input
+2025-05-21 20:57:31,325 - LatencyAnalysis - INFO - Overall stats for Keyboard Input: {'count': 653, 'mean': np.float64(24.18529862174579), 'median': np.float64(24.0), 'std_dev': np.float64(2.9002241204965338), 'min': np.float64(19.0), 'max': np.float64(37.0), 'q1': np.float64(22.0), 'q3': np.float64(25.0), 'cv': np.float64(11.99168207866926)}
+2025-05-21 20:57:31,327 - LatencyAnalysis - INFO - Printing per-action statistics for Keyboard Input
+2025-05-21 20:57:31,327 - LatencyAnalysis - INFO - Calculating statistics for 'Keyboard Input - Action: Move' with 653 data points.
+2025-05-21 20:57:31,328 - LatencyAnalysis - INFO - Statistics for 'Keyboard Input - Action: Move': Count=653, Mean=24.19, Median=24.00, CV=11.99%
+2025-05-21 20:57:31,328 - LatencyAnalysis - INFO - Stats for Keyboard Input - Action: Move: {'count': 653, 'mean': np.float64(24.18529862174579), 'median': np.float64(24.0), 'std_dev': np.float64(2.9002241204965338), 'min': np.float64(19.0), 'max': np.float64(37.0), 'q1': np.float64(22.0), 'q3': np.float64(25.0), 'cv': np.float64(11.99168207866926)}
+2025-05-21 20:57:31,329 - LatencyAnalysis - INFO - Finished printing statistics for Keyboard Input
+2025-05-21 20:57:31,329 - LatencyAnalysis - INFO - Performing overall platform comparison.
+2025-05-21 20:57:31,329 - LatencyAnalysis - INFO - Starting platform comparison between Controller and Keyboard.
+2025-05-21 20:57:31,329 - LatencyAnalysis - INFO - Comparing Controller (N=500) vs Keyboard (N=653):
+  Mean Latency: Controller = 20.21 ms, Keyboard = 24.19 ms
+  Median Latency: Controller = 20.00 ms, Keyboard = 24.00 ms
+  Std Deviation: Controller = 2.38 ms, Keyboard = 2.90 ms
+  CV: Controller = 11.75%, Keyboard = 11.99%
+2025-05-21 20:57:31,329 - LatencyAnalysis - INFO - Performing Mann-Whitney U test between Controller and Keyboard.
+2025-05-21 20:57:31,331 - LatencyAnalysis - INFO - Mann-Whitney U test for Controller vs Keyboard: U=36467.00, P-value=0.0000. Interpretation: Significant difference
+2025-05-21 20:57:31,332 - LatencyAnalysis - INFO - Finished platform comparison between Controller and Keyboard.
+2025-05-21 20:57:31,332 - LatencyAnalysis - INFO - Assessing platform stability.
+2025-05-21 20:57:31,333 - LatencyAnalysis - INFO - Controller Input Stability: CV=11.75%, StdDev=2.38 ms
+2025-05-21 20:57:31,333 - LatencyAnalysis - INFO - Keyboard Input Stability: CV=11.99%, StdDev=2.90 ms
+2025-05-21 20:57:31,333 - LatencyAnalysis - INFO - Performing detailed action breakdown for cross-platform consistency.
+2025-05-21 20:57:31,334 - LatencyAnalysis - INFO - Comparing Action: Move
+2025-05-21 20:57:31,334 - LatencyAnalysis - INFO - Calculating statistics for 'Controller - Action: Move' with 500 data points.
+2025-05-21 20:57:31,334 - LatencyAnalysis - INFO - Statistics for 'Controller - Action: Move': Count=500, Mean=20.21, Median=20.00, CV=11.75%
+2025-05-21 20:57:31,334 - LatencyAnalysis - INFO - Calculating statistics for 'Keyboard - Action: Move' with 653 data points.
+2025-05-21 20:57:31,335 - LatencyAnalysis - INFO - Statistics for 'Keyboard - Action: Move': Count=653, Mean=24.19, Median=24.00, CV=11.99%
+2025-05-21 20:57:31,335 - LatencyAnalysis - INFO - Performing Mann-Whitney U test for Action: Move between Controller and Keyboard.
+2025-05-21 20:57:31,336 - LatencyAnalysis - INFO - Mann-Whitney U for Move: p-value = 0.0000 (Significant Diff)
+2025-05-21 20:57:31,337 - LatencyAnalysis - INFO - Generating summary table for action comparison.
+2025-05-21 20:57:31,343 - LatencyAnalysis - INFO - Summary Table:
+        Controller Mean (ms)  Controller Median (ms)  Controller StdDev (ms)  Controller CV (%)  Controller N  Keyboard Mean (ms)  Keyboard Median (ms)  Keyboard StdDev (ms)  Keyboard CV (%)  Keyboard N  P-value (Mann-Whitney U)
+Action                                                                                                                                                                                                                              
+Move                   20.21                    20.0                2.375268          11.752936           500           24.185299                  24.0              2.900224        11.991682         653             1.876605e-114
+2025-05-21 20:57:31,344 - LatencyAnalysis - INFO - === Script execution finished ===

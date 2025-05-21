@@ -1,0 +1,141 @@
+2025-05-21 21:31:29,532 - LatencyAnalysis - INFO - === 脚本执行开始 ===
+2025-05-21 21:31:29,532 - LatencyAnalysis - INFO - 手柄数据文件: c:\Users\dyrn5\OneDrive\桌面\毕业设计\typist\typst_xdutemplate\Data\ControllerInput.csv
+2025-05-21 21:31:29,550 - LatencyAnalysis - INFO - 开始处理文件: c:\Users\dyrn5\OneDrive\桌面\毕业设计\typist\typst_xdutemplate\Data\ControllerInput.csv
+2025-05-21 21:31:29,550 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.203,0.027,0.175
+2025-05-21 21:31:29,551 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.875,0.017,0.858
+2025-05-21 21:31:29,552 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,1.565,0.017,1.548
+2025-05-21 21:31:29,552 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.258,0.017,0.241
+2025-05-21 21:31:29,552 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.551,0.017,0.534
+2025-05-21 21:31:29,552 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.317,0.017,0.3
+2025-05-21 21:31:29,553 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.892,0.02,0.872
+2025-05-21 21:31:29,553 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.309,0.017,0.293
+2025-05-21 21:31:29,553 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,1.147,0.017,1.131
+2025-05-21 21:31:29,553 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.267,0.017,0.25
+2025-05-21 21:31:29,554 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.55,0.017,0.534
+2025-05-21 21:31:29,554 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.539,0.017,0.522
+2025-05-21 21:31:29,554 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.534,0.017,0.517
+2025-05-21 21:31:29,554 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.535,0.02,0.515
+2025-05-21 21:31:29,555 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.835,0.02,0.815
+2025-05-21 21:31:29,555 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.21,0.022,0.188
+2025-05-21 21:31:29,555 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.534,0.052,0.482
+2025-05-21 21:31:29,555 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.31,0.02,0.29
+2025-05-21 21:31:29,555 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.277,0.02,0.257
+2025-05-21 21:31:29,556 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.523,0.018,0.505
+2025-05-21 21:31:29,556 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.232,0.021,0.211
+2025-05-21 21:31:29,556 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.294,0.017,0.278
+2025-05-21 21:31:29,556 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.217,0.017,0.2
+2025-05-21 21:31:29,556 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.233,0.017,0.217
+2025-05-21 21:31:29,557 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.233,0.017,0.217
+2025-05-21 21:31:29,557 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.534,0.017,0.517
+2025-05-21 21:31:29,558 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.251,0.017,0.234
+2025-05-21 21:31:29,560 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.466,0.018,0.447
+2025-05-21 21:31:29,561 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,1.087,0.017,1.07
+2025-05-21 21:31:29,561 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.244,0.017,0.227
+2025-05-21 21:31:29,561 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.25,0.017,0.233
+2025-05-21 21:31:29,562 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,1.044,0.017,1.028
+2025-05-21 21:31:29,563 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.25,0.017,0.233
+2025-05-21 21:31:29,563 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.217,0.017,0.2
+2025-05-21 21:31:29,564 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.217,0.017,0.2
+2025-05-21 21:31:29,564 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.47,0.018,0.452
+2025-05-21 21:31:29,564 - LatencyAnalysis - INFO - 文件处理完成: c:\Users\dyrn5\OneDrive\桌面\毕业设计\typist\typst_xdutemplate\Data\ControllerInput.csv. 总行数: 984, 解析行数: 948, 有效间隔数: 948
+2025-05-21 21:31:29,564 - LatencyAnalysis - INFO - 为 '手柄输入整体' 计算统计数据，数据点数量: 948.
+2025-05-21 21:31:29,567 - LatencyAnalysis - INFO - '手柄输入整体' 的统计结果: 计数=948, 平均值=18.01, 中位数=17.00, CV=25.23%
+2025-05-21 21:31:29,567 - LatencyAnalysis - INFO - 开始打印 手柄输入 的整体统计信息
+2025-05-21 21:31:29,584 - LatencyAnalysis - INFO - 手柄输入 的整体统计数据: {'count': 948, 'mean': np.float64(18.013713080168777), 'median': np.float64(17.0), 'std_dev': np.float64(4.545227678769704), 'min': np.float64(17.0), 'max': np.float64(120.0), 'q1': np.float64(17.0), 'q3': np.float64(18.0), 'cv': np.float64(25.2320421588902)}
+2025-05-21 21:31:29,594 - LatencyAnalysis - INFO - 开始打印 手柄输入 的各操作类型统计信息
+2025-05-21 21:31:29,595 - LatencyAnalysis - INFO - 为 '手柄输入 - 操作: Move' 计算统计数据，数据点数量: 948.
+2025-05-21 21:31:29,595 - LatencyAnalysis - INFO - '手柄输入 - 操作: Move' 的统计结果: 计数=948, 平均值=18.01, 中位数=17.00, CV=25.23%
+2025-05-21 21:31:29,596 - LatencyAnalysis - INFO - 手柄输入 - 操作: Move 的统计数据: {'count': 948, 'mean': np.float64(18.013713080168777), 'median': np.float64(17.0), 'std_dev': np.float64(4.545227678769704), 'min': np.float64(17.0), 'max': np.float64(120.0), 'q1': np.float64(17.0), 'q3': np.float64(18.0), 'cv': np.float64(25.2320421588902)}
+2025-05-21 21:31:29,598 - LatencyAnalysis - INFO - 完成打印 手柄输入 的统计信息
+2025-05-21 21:31:29,599 - LatencyAnalysis - INFO - 键盘数据文件: c:\Users\dyrn5\OneDrive\桌面\毕业设计\typist\typst_xdutemplate\Data\KeyboardInput.csv
+2025-05-21 21:31:29,599 - LatencyAnalysis - INFO - 开始处理文件: c:\Users\dyrn5\OneDrive\桌面\毕业设计\typist\typst_xdutemplate\Data\KeyboardInput.csv
+2025-05-21 21:31:29,600 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.201,0.024,0.177
+2025-05-21 21:31:29,602 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,3.631,0.02,3.611
+2025-05-21 21:31:29,603 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,3.256,0.017,3.24
+2025-05-21 21:31:29,604 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,2.803,0.017,2.786
+2025-05-21 21:31:29,605 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,1.705,0.017,1.688
+2025-05-21 21:31:29,605 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.15,0.017,0.133
+2025-05-21 21:31:29,605 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.236,0.018,0.217
+2025-05-21 21:31:29,606 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.338,0.017,0.322
+2025-05-21 21:31:29,606 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.184,0.017,0.167
+2025-05-21 21:31:29,607 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.801,0.021,0.78
+2025-05-21 21:31:29,607 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.283,0.019,0.263
+2025-05-21 21:31:29,607 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.205,0.017,0.188
+2025-05-21 21:31:29,607 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.617,0.017,0.6
+2025-05-21 21:31:29,608 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.827,0.018,0.809
+2025-05-21 21:31:29,608 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.205,0.017,0.188
+2025-05-21 21:31:29,608 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.253,0.017,0.236
+2025-05-21 21:31:29,608 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.123,0.021,0.102
+2025-05-21 21:31:29,608 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.206,0.024,0.182
+2025-05-21 21:31:29,608 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.201,0.018,0.182
+2025-05-21 21:31:29,609 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.535,0.02,0.515
+2025-05-21 21:31:29,609 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.536,0.02,0.516
+2025-05-21 21:31:29,609 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,1.062,0.017,1.046
+2025-05-21 21:31:29,609 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.2,0.017,0.183
+2025-05-21 21:31:29,610 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.764,0.017,0.747
+2025-05-21 21:31:29,610 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.56,0.017,0.544
+2025-05-21 21:31:29,610 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.493,0.019,0.474
+2025-05-21 21:31:29,610 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.284,0.017,0.267
+2025-05-21 21:31:29,611 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,1.137,0.017,1.12
+2025-05-21 21:31:29,611 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.633,0.017,0.617
+2025-05-21 21:31:29,612 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.441,0.02,0.421
+2025-05-21 21:31:29,612 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.508,0.017,0.491
+2025-05-21 21:31:29,612 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.235,0.017,0.218
+2025-05-21 21:31:29,612 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.15,0.018,0.132
+2025-05-21 21:31:29,613 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.171,0.017,0.154
+2025-05-21 21:31:29,613 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.155,0.017,0.138
+2025-05-21 21:31:29,613 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,1.084,0.019,1.065
+2025-05-21 21:31:29,613 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.224,0.017,0.208
+2025-05-21 21:31:29,613 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.403,0.017,0.386
+2025-05-21 21:31:29,613 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.233,0.017,0.217
+2025-05-21 21:31:29,614 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.367,0.017,0.35
+2025-05-21 21:31:29,614 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.133,0.017,0.117
+2025-05-21 21:31:29,614 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.117,0.017,0.1
+2025-05-21 21:31:29,614 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.824,0.019,0.805
+2025-05-21 21:31:29,614 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.188,0.017,0.171
+2025-05-21 21:31:29,614 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.498,0.017,0.481
+2025-05-21 21:31:29,614 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.312,0.019,0.293
+2025-05-21 21:31:29,615 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.106,0.018,0.088
+2025-05-21 21:31:29,615 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.693,0.019,0.674
+2025-05-21 21:31:29,615 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.114,0.017,0.097
+2025-05-21 21:31:29,615 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.301,0.017,0.284
+2025-05-21 21:31:29,615 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.267,0.017,0.25
+2025-05-21 21:31:29,615 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.728,0.023,0.705
+2025-05-21 21:31:29,615 - LatencyAnalysis - INFO - 因时间戳无效 (CurrEnd_TS <= PrevEnd_TS) 跳过行: LogBlueprintUserMessages: [BP_LatencyLogger_C_1] LATENCY_LOG,Move,0.545,0.017,0.528
+2025-05-21 21:31:29,616 - LatencyAnalysis - INFO - 文件处理完成: c:\Users\dyrn5\OneDrive\桌面\毕业设计\typist\typst_xdutemplate\Data\KeyboardInput.csv. 总行数: 1720, 解析行数: 1667, 有效间隔数: 1667
+2025-05-21 21:31:29,616 - LatencyAnalysis - INFO - 为 '键盘输入整体' 计算统计数据，数据点数量: 1667.
+2025-05-21 21:31:29,617 - LatencyAnalysis - INFO - '键盘输入整体' 的统计结果: 计数=1667, 平均值=18.48, 中位数=17.00, CV=14.10%
+2025-05-21 21:31:29,617 - LatencyAnalysis - INFO - 开始打印 键盘输入 的整体统计信息
+2025-05-21 21:31:29,618 - LatencyAnalysis - INFO - 键盘输入 的整体统计数据: {'count': 1667, 'mean': np.float64(18.47630473905219), 'median': np.float64(17.0), 'std_dev': np.float64(2.6058646005217323), 'min': np.float64(17.0), 'max': np.float64(61.0), 'q1': np.float64(17.0), 'q3': np.float64(19.0), 'cv': np.float64(14.10381912035626)}
+2025-05-21 21:31:29,620 - LatencyAnalysis - INFO - 开始打印 键盘输入 的各操作类型统计信息
+2025-05-21 21:31:29,621 - LatencyAnalysis - INFO - 为 '键盘输入 - 操作: Move' 计算统计数据，数据点数量: 1667.
+2025-05-21 21:31:29,622 - LatencyAnalysis - INFO - '键盘输入 - 操作: Move' 的统计结果: 计数=1667, 平均值=18.48, 中位数=17.00, CV=14.10%
+2025-05-21 21:31:29,622 - LatencyAnalysis - INFO - 键盘输入 - 操作: Move 的统计数据: {'count': 1667, 'mean': np.float64(18.47630473905219), 'median': np.float64(17.0), 'std_dev': np.float64(2.6058646005217323), 'min': np.float64(17.0), 'max': np.float64(61.0), 'q1': np.float64(17.0), 'q3': np.float64(19.0), 'cv': np.float64(14.10381912035626)}
+2025-05-21 21:31:29,623 - LatencyAnalysis - INFO - 完成打印 键盘输入 的统计信息
+2025-05-21 21:31:29,623 - LatencyAnalysis - INFO - 执行整体平台比较。
+2025-05-21 21:31:29,623 - LatencyAnalysis - INFO - 开始在 手柄 和 键盘 之间进行平台比较。
+2025-05-21 21:31:29,624 - LatencyAnalysis - INFO - 比较 手柄 (N=948) vs 键盘 (N=1667):
+  平均延迟: 手柄 = 18.01 ms, 键盘 = 18.48 ms
+  中位数延迟: 手柄 = 17.00 ms, 键盘 = 17.00 ms
+  标准差: 手柄 = 4.55 ms, 键盘 = 2.61 ms
+  变异系数: 手柄 = 25.23%, 键盘 = 14.10%
+2025-05-21 21:31:29,624 - LatencyAnalysis - INFO - 在 手柄 和 键盘 之间执行 Mann-Whitney U 检验。
+2025-05-21 21:31:29,626 - LatencyAnalysis - INFO - 手柄 vs 键盘 的 Mann-Whitney U 检验: U=652114.50, P值=0.0000. 解释: 显著差异
+2025-05-21 21:31:29,627 - LatencyAnalysis - INFO - 完成在 手柄 和 键盘 之间的平台比较。
+2025-05-21 21:31:29,627 - LatencyAnalysis - INFO - 评估平台稳定性。
+2025-05-21 21:31:29,628 - LatencyAnalysis - INFO - 手柄输入稳定性: CV=25.23%, 标准差=4.55 ms
+2025-05-21 21:31:29,628 - LatencyAnalysis - INFO - 键盘输入稳定性: CV=14.10%, 标准差=2.61 ms
+2025-05-21 21:31:29,628 - LatencyAnalysis - INFO - 执行跨平台一致性的详细操作分解。
+2025-05-21 21:31:29,628 - LatencyAnalysis - INFO - 比较操作: Move
+2025-05-21 21:31:29,629 - LatencyAnalysis - INFO - 为 '手柄 - 操作: Move' 计算统计数据，数据点数量: 948.
+2025-05-21 21:31:29,630 - LatencyAnalysis - INFO - '手柄 - 操作: Move' 的统计结果: 计数=948, 平均值=18.01, 中位数=17.00, CV=25.23%
+2025-05-21 21:31:29,630 - LatencyAnalysis - INFO - 为 '键盘 - 操作: Move' 计算统计数据，数据点数量: 1667.
+2025-05-21 21:31:29,631 - LatencyAnalysis - INFO - '键盘 - 操作: Move' 的统计结果: 计数=1667, 平均值=18.48, 中位数=17.00, CV=14.10%
+2025-05-21 21:31:29,631 - LatencyAnalysis - INFO - 在手柄和键盘之间为操作 Move 执行 Mann-Whitney U 检验。
+2025-05-21 21:31:29,633 - LatencyAnalysis - INFO - Move 的 Mann-Whitney U 检验: p值 = 0.0000 (显著差异)
+2025-05-21 21:31:29,634 - LatencyAnalysis - INFO - 生成操作比较的摘要表。
+2025-05-21 21:31:29,646 - LatencyAnalysis - INFO - 摘要表:
+      手柄平均值 (ms)  手柄中位数 (ms)  手柄标准差 (ms)   手柄CV (%)  手柄N  键盘平均值 (ms)  键盘中位数 (ms)  键盘标准差 (ms)   键盘CV (%)   键盘N  P值 (Mann-Whitney U)
+操作                                                                                                                                
+Move   18.013713        17.0    4.545228  25.232042  948   18.476305        17.0    2.605865  14.103819  1667         1.801921e-17
+2025-05-21 21:31:29,647 - LatencyAnalysis - INFO - === 脚本执行完毕 ===
