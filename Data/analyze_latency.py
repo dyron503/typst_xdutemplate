@@ -197,6 +197,46 @@ def compare_platforms(stats1, label1, stats2, label2, intervals1, intervals2):
         logger.warning(f"无法执行平台比较: 一个或两个数据集没有有效数据。{label1} 计数: {stats1['count']}, {label2} 计数: {stats2['count']}.")
         print("无法执行比较: 一个或两个数据集没有有效数据。")
         return
+        
+    # 统计检验
+    data1 = np.array(intervals1)
+    data2 = np.array(intervals2)
+    
+    # 独立样本t检验
+    t_stat, p_value = stats.ttest_ind(data1, data2, equal_var=False)
+    
+    # Mann-Whitney U检验（非参数检验）
+    u_stat, p_value_mw = stats.mannwhitneyu(data1, data2)
+    
+    print(f"独立样本t检验: t={t_stat:.3f}, p={p_value:.5f}")
+    print(f"Mann-Whitney U检验: U={u_stat:.1f}, p={p_value_mw:.5f}")
+    
+    # 新增分段分析功能
+    def analyze_segments(data):
+        segments = []
+        current_segment = []
+        
+        for interval in data:
+            if interval < 100:  # 有效间隔阈值(ms)
+                current_segment.append(interval)
+            else:
+                if current_segment:
+                    segments.append(current_segment)
+                    current_segment = []
+        
+        if current_segment:
+            segments.append(current_segment)
+        
+        return segments
+    
+    print("\n--- 分段分析结果 ---")
+    print(f"{label1} 分段统计:")
+    for i, seg in enumerate(analyze_segments(data1)):
+        print(f"段{i+1}: {len(seg)}个样本, 均值={np.mean(seg):.1f}ms")
+    
+    print(f"\n{label2} 分段统计:")
+    for i, seg in enumerate(analyze_segments(data2)):
+        print(f"段{i+1}: {len(seg)}个样本, 均值={np.mean(seg):.1f}ms")
 
     comparison_details = f"比较 {label1} (N={stats1['count']}) vs {label2} (N={stats2['count']}):\n"
     comparison_details += f"  平均延迟: {label1} = {stats1['mean']:.2f} ms, {label2} = {stats2['mean']:.2f} ms\n"
