@@ -301,7 +301,7 @@ except Exception as e:
 
 # --- Generate Full Report ---
 print("="*80)
-print("数据分析报告 (已改进伪影过滤)")
+print("数据分析报告")
 print("="*80)
 for section_content in report_sections:
     print(section_content)
